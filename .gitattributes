@@ -1,0 +1,6 @@
+# Mantener los CSV exactamente como vienen del sistema origen (sin conversión de fin de línea)
+*.csv -text
+*.sql text eol=lf
+*.md  text eol=lf
+# Scripts de PowerShell: Windows PowerShell 5.1 requiere UTF-8 con BOM y CRLF
+*.ps1 text eol=crlf
