@@ -1,0 +1,22 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales y logs
+*.tmp
+*.log
+~$*
+
+# Credenciales locales (nunca versionar contraseñas)
+.env
+*.pgpass
+
+# Salidas de la operación (logs del ETL y respaldos)
+logs/
+*.dump
